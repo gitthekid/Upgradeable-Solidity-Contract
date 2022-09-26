@@ -1,6 +1,6 @@
 const { ethers, upgrades } = require("hardhat");
 
-const PROXY = "0x79e528a1d7c095c0b733e4de385f463c6e0d282d"
+const PROXY = "" //proxy contract address
 
 async function main() {
  const NumberV2 = await ethers.getContractFactory("NumberV2");
